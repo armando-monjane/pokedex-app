@@ -86,7 +86,7 @@ const AutoComplete = () => {
         <TextField
           {...params}
           label="Search here"
-          placeholder="Eg. Pikachu"
+          placeholder="Eg. Pikachu, or 25"
           InputProps={{
             ...params.InputProps,
             endAdornment: (
