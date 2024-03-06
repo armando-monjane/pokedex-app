@@ -25,7 +25,11 @@ export const RouterMiddleware = () => {
             path: "*",
             element: <h1>404</h1>,
         },
-    ]);
+    ],
+    {
+        basename: "/pokedex-app",
+    }
+    );
 
     return <RouterProvider router={router} />;
 };
